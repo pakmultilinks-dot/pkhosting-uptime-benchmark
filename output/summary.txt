@@ -1,0 +1,15 @@
+Window 2026-10-23T11:48:23+00:00 .. 2026-10-23T12:21:39+00:00 UTC, 270 checks
+
+PKHosting  uptime 100.0% (45/45)  TTFB med 2.266s p95 2.858s  total med 2.56s  page 432.4 KB
+WebSouls   uptime 100.0% (45/45)  TTFB med 2.117s p95 3.117s  total med 2.599s  page 852.2 KB
+HostKarle  uptime 100.0% (45/45)  TTFB med 1.949s p95 2.843s  total med 2.035s  page 43.7 KB
+HostBreak  uptime 100.0% (45/45)  TTFB med 2.855s p95 4.114s  total med 3.255s  page 709.9 KB
+HosterPK   uptime 100.0% (45/45)  TTFB med 1.711s p95 2.574s  total med 1.916s  page 185.7 KB
+Hostinger  uptime 100.0% (45/45)  TTFB med 0.808s p95 1.101s  total med 1.251s  page 1059.4 KB
+
+Kruskal-Wallis TTFB: H=194.62, p=4.02e-40
+MWU PKHosting vs WebSouls   p_holm=0.16 sig=False rank_biserial=-0.172 median_diff=0.149s
+MWU PKHosting vs HostKarle  p_holm=0.00153 sig=True rank_biserial=-0.412 median_diff=0.318s
+MWU PKHosting vs HostBreak  p_holm=3.67e-10 sig=True rank_biserial=0.794 median_diff=-0.588s
+MWU PKHosting vs HosterPK   p_holm=7.52e-10 sig=True rank_biserial=-0.775 median_diff=0.556s
+MWU PKHosting vs Hostinger  p_holm=1.59e-15 sig=True rank_biserial=-1.0 median_diff=1.458s

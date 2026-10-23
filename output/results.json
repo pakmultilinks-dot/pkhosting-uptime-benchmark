@@ -1,0 +1,143 @@
+{
+  "window": {
+    "first_check_utc": "2026-10-23T11:48:23+00:00",
+    "last_check_utc": "2026-10-23T12:21:39+00:00",
+    "rounds": 45,
+    "interval_s": 45,
+    "total_checks": 270
+  },
+  "summary": {
+    "PKHosting": {
+      "checks": 45,
+      "up": 45,
+      "uptime_pct": 100.0,
+      "ttfb_median": 2.266,
+      "ttfb_p95": 2.858,
+      "ttfb_mean": 2.282,
+      "total_median": 2.56,
+      "total_p95": 3.106,
+      "size_kb_median": 432.4,
+      "errors": {}
+    },
+    "WebSouls": {
+      "checks": 45,
+      "up": 45,
+      "uptime_pct": 100.0,
+      "ttfb_median": 2.117,
+      "ttfb_p95": 3.117,
+      "ttfb_mean": 2.231,
+      "total_median": 2.599,
+      "total_p95": 3.619,
+      "size_kb_median": 852.2,
+      "errors": {}
+    },
+    "HostKarle": {
+      "checks": 45,
+      "up": 45,
+      "uptime_pct": 100.0,
+      "ttfb_median": 1.949,
+      "ttfb_p95": 2.843,
+      "ttfb_mean": 2.117,
+      "total_median": 2.035,
+      "total_p95": 2.915,
+      "size_kb_median": 43.7,
+      "errors": {}
+    },
+    "HostBreak": {
+      "checks": 45,
+      "up": 45,
+      "uptime_pct": 100.0,
+      "ttfb_median": 2.855,
+      "ttfb_p95": 4.114,
+      "ttfb_mean": 3.303,
+      "total_median": 3.255,
+      "total_p95": 4.473,
+      "size_kb_median": 709.9,
+      "errors": {}
+    },
+    "HosterPK": {
+      "checks": 45,
+      "up": 45,
+      "uptime_pct": 100.0,
+      "ttfb_median": 1.711,
+      "ttfb_p95": 2.574,
+      "ttfb_mean": 1.771,
+      "total_median": 1.916,
+      "total_p95": 2.795,
+      "size_kb_median": 185.7,
+      "errors": {}
+    },
+    "Hostinger": {
+      "checks": 45,
+      "up": 45,
+      "uptime_pct": 100.0,
+      "ttfb_median": 0.808,
+      "ttfb_p95": 1.101,
+      "ttfb_mean": 0.838,
+      "total_median": 1.251,
+      "total_p95": 1.597,
+      "size_kb_median": 1059.4,
+      "errors": {}
+    }
+  },
+  "kruskal_wallis_ttfb": {
+    "H": 194.62,
+    "p": 4.0184980779574135e-40
+  },
+  "mann_whitney_pkhosting_vs": [
+    {
+      "competitor": "WebSouls",
+      "u": 1187.0,
+      "p_raw": 0.1602807740947546,
+      "rank_biserial": -0.172,
+      "median_diff_s": 0.149,
+      "p_holm": 0.1602807740947546,
+      "significant_0.05": false
+    },
+    {
+      "competitor": "HostKarle",
+      "u": 1430.0,
+      "p_raw": 0.0007652560627251335,
+      "rank_biserial": -0.412,
+      "median_diff_s": 0.318,
+      "p_holm": 0.001530512125450267,
+      "significant_0.05": true
+    },
+    {
+      "competitor": "HostBreak",
+      "u": 209.0,
+      "p_raw": 9.174119203396474e-11,
+      "rank_biserial": 0.794,
+      "median_diff_s": -0.588,
+      "p_holm": 3.6696476813585894e-10,
+      "significant_0.05": true
+    },
+    {
+      "competitor": "HosterPK",
+      "u": 1797.0,
+      "p_raw": 2.5054863255022407e-10,
+      "rank_biserial": -0.775,
+      "median_diff_s": 0.556,
+      "p_holm": 7.516458976506721e-10,
+      "significant_0.05": true
+    },
+    {
+      "competitor": "Hostinger",
+      "u": 2025.0,
+      "p_raw": 3.1736851103720565e-16,
+      "rank_biserial": -1.0,
+      "median_diff_s": 1.458,
+      "p_holm": 1.5868425551860283e-15,
+      "significant_0.05": true
+    }
+  ],
+  "fisher_uptime": null,
+  "failures_by_site": {
+    "PKHosting": 0,
+    "WebSouls": 0,
+    "HostKarle": 0,
+    "HostBreak": 0,
+    "HosterPK": 0,
+    "Hostinger": 0
+  }
+}
